@@ -86,3 +86,16 @@ export default [
       },
     ],
   },
+  {
+    featureType: 'water',
+    elementType: 'labels',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+      {
+        lightness: '12',
+      },
+    ],
+  },
+];
