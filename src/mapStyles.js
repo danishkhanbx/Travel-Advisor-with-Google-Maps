@@ -56,4 +56,33 @@ export default [
       },
     ],
   },
-
+{
+    featureType: 'road',
+    elementType: 'labels',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+  {
+    featureType: 'transit',
+    elementType: 'labels',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+  {
+    featureType: 'water',
+    elementType: 'all',
+    stylers: [
+      {
+        saturation: '100',
+      },
+      {
+        lightness: '-14',
+      },
+    ],
+  },
