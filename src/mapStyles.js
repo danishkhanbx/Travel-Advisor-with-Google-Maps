@@ -17,3 +17,22 @@ export default [
       },
     ],
   },
+ {
+    featureType: 'administrative',
+    elementType: 'labels',
+    stylers: [
+      {
+        visibility: 'on',
+      },
+    ],
+  },
+  {
+    featureType: 'landscape',
+    elementType: 'labels',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+ 
