@@ -35,4 +35,25 @@ export default [
       },
     ],
   },
- 
+ {
+    featureType: 'landscape.man_made',
+    elementType: 'all',
+    stylers: [
+      {
+        saturation: '-70',
+      },
+      {
+        lightness: '14',
+      },
+    ],
+  },
+  {
+    featureType: 'poi',
+    elementType: 'labels',
+    stylers: [
+      {
+        visibility: 'off',
+      },
+    ],
+  },
+
